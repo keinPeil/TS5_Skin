@@ -15,8 +15,8 @@
         "userTag": "KeinPeil@myteamspeak.com"
     },
     "repository": {
-        "url": "https://github.com/bestDudeEver/themes/",
-        "directory": "purple",
+        "url": "https://github.com/keinPeil/TS5_Skin",
+        "directory": "de.keinpeil.teamspeak",
         "type": "git"
     },
     "content": {

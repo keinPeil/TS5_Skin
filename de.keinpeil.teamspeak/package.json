@@ -1,0 +1,32 @@
+{
+    "name": "KeinPeils Theme",
+    "description": "KeinPeils inspired custom TS5 Theme",
+    "version": "1.0.0",
+    "identifier": "de.keinpeil.teamspeak",
+    "engines": {
+        "teamspeak": 1
+    },
+    "image": "keinpeil.png",
+    "license": "CC BY-SA",
+    "author": {
+        "name": "KeinPeil",
+        "email": "mhf_zocker@gmx.de",
+        "url": "https://ts-beta.keinpeil.eu",
+        "userTag": "KeinPeil@myteamspeak.com"
+    },
+    "repository": {
+        "url": "https://github.com/bestDudeEver/themes/",
+        "directory": "purple",
+        "type": "git"
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "Dark Theme keinPeil",
+                "source": "darkkeinpeil.css",
+                "image": "darkkeinpeil.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}

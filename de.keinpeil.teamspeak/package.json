@@ -1,7 +1,7 @@
 {
     "name": "KeinPeils Theme",
     "description": "KeinPeils inspired custom TS5 Theme",
-    "version": "01.02.00",
+    "version": "1.2.0",
     "identifier": "de.keinpeil.teamspeak",
     "engines": {
         "teamspeak": 1

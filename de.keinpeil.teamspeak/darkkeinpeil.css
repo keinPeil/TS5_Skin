@@ -80,9 +80,9 @@
 }
 
 .ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight::after, .ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight-extra::after{
+    border: none !important;
     border-left: var(--indicator-outline-size) solid var(--indicator-outline-color) !important;
-    border: none;
-    border-radius: 0;
+    border-radius: 0 !important; 
 }
 
 .ts-server-tree-item-background-no-image+.tsv-item-highlight{
@@ -90,7 +90,7 @@
 }
 
 .ts-server-tree-item-leaf.channel:not(.spacer).has-password {
-    --indicator-outline-color: none;
+    --indicator-outline-color: none !important;
 }
 
 .tsv-footer:not(.transparent)::before{

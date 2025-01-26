@@ -75,6 +75,10 @@
     --channel-height: 20px !important;
 }
 
+.ts-context-menu:before{
+    background: var(--custom-value-dark4) !important;
+}
+
 .ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight::after, .ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight-extra::after{
     border-left: var(--indicator-outline-size) solid var(--indicator-outline-color) !important;
     border: none;

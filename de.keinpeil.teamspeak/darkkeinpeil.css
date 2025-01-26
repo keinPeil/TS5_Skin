@@ -63,8 +63,54 @@
     --tsv-scrollbar-bg: var(--custom-color-accent-light) !important;
     --tsv-scrollbar-chunks--bg-1: var(--custom-color-accent-light) !important;
     --tsv-scrollbar-chunks--bg-2: var(--custom-value-dark3) !important;
+    --tsv-servertree-bg-gradient: var(--custom-value-dark5) !important;
+    --ts-new-header-bg: var(--custom-value-dark3) !important;
+    --tsv-side-bar-bg-gradient-bottom: var(--custom-value-dark3) !important;
+    --tsv-deviant-bg: var(--custom-value-dark5) !important;
+    --tsv-button-filled-bg: var(--custom-value-dark3) !important;
+    --tsv-border-radius-xxxlarge: 0 !important;
+    --tsv-border-radius-xxlarge: 0 !important;
+    --tsv-border-radius-xlarge: 0 !important;
+    --tsv-view-header-bg: var(--custom-value-dark5) !important;
+    --channel-height: 20px !important;
 }
 
+.ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight::after, .ts-server-tree-item-leaf.channel:not(.spacer).is-full .tsv-item-highlight-extra::after{
+    border-left: var(--indicator-outline-size) solid var(--indicator-outline-color) !important;
+    border: none;
+    border-radius: 0;
+}
+
+.ts-server-tree-item-background-no-image+.tsv-item-highlight{
+    background: transparent !important;
+}
+
+.ts-server-tree-item-leaf.channel:not(.spacer).has-password {
+    --indicator-outline-color: none;
+}
+
+.tsv-footer:not(.transparent)::before{
+    border-top-color: var(--custom-value-dark4) !important;
+}
+
+.tsv-view-background::after {
+    border: 0 !important;
+    opacity: 1 !important;
+}
+
+.tsv-view-banner {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    --top-spacing: 0px !important;
+}
+
+.ts-server-tree-wrapper {
+    padding-left: 0 !important;
+}
+
+.ts-join-community {
+    display: none;
+}
 
 .tsv-sidebar-content.hasOverlay .resources-section:after {
     display: none !important;
@@ -93,7 +139,7 @@
     display: none !important;
 }
 
-/* set custom background */
+/* set custom aackground */
 .ts-background-hexes-container {
     background: none !important;
     background-size: cover !important;
